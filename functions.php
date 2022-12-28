@@ -14,4 +14,4 @@ function calcite_block_pattern_category() {
 	) );
 }
 
-add_action( 'init', 'calcite_block_pattern_category' );
+add_action( 'init', 'calcite_block_pattern_category', 5 );
