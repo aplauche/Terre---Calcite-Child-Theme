@@ -1,0 +1,59 @@
+/*
+Theme Name: Calcite
+Theme URI: 
+Author: Anton Plauche
+Author URI: https://antonplauche.com
+Description: Brutalist child theme of the Terre WP ecosystem
+Requires at least: 5.8
+Tested up to: 5.9
+Requires PHP: 5.7
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: terre
+Text Domain: calcite
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, rtl-language-support, theme-options, threaded-comments, translation-ready, wide-blocks
+*/
+
+/* ---------------------------
+------------------------------
+|	Calcite Custom Overrides          
+------------------------------
+--------------------------- */
+
+
+/* ---------------------------
+------------------------------
+|	Block Styling           
+------------------------------
+--------------------------- */
+
+/* Buttons
+--------------------------------------------- */
+
+/* Need to add border to all buttons to match height on secondary style */
+.wp-block-button .wp-element-button {
+	border: 2px solid var(--wp--preset--color--primary);
+}
+
+.wp-block-button.is-style-secondary-button .wp-element-button {
+	background-color: transparent;
+	border: 2px solid var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--primary);
+
+}
+
+.wp-block-button.is-style-secondary-button .wp-element-button:hover {
+	background-color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--white);
+}
+
+
+/* Image
+--------------------------------------------- */
+
+.wp-block-image.is-style-drop-bg img {
+	border-radius: var(--wp--custom--rounding--base);
+	border: 1px solid var(--wp--preset--color--secondary);
+	box-shadow: 8px 8px var(--wp--preset--color--secondary);
+}
