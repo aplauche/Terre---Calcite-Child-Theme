@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer with site title, text, links.
- * Slug: calcite/footer
+ * Slug: terre/footer
  * Categories: footer
  * Block Types: core/template-part/footer
  * Viewport Width: 1280
