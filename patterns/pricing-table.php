@@ -8,37 +8,67 @@
 ?>
 
 <!-- wp:columns {"align":"wide"} -->
-<div class="wp-block-columns alignwide"><!-- wp:column {"width":"50%"} -->
-<div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|lg","right":"var:preset|spacing|lg","bottom":"var:preset|spacing|lg","left":"var:preset|spacing|lg"}}},"className":"is-style-rounded","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide is-style-rounded" style="padding-top:var(--wp--preset--spacing--lg);padding-right:var(--wp--preset--spacing--lg);padding-bottom:var(--wp--preset--spacing--lg);padding-left:var(--wp--preset--spacing--lg)"><!-- wp:heading -->
-<h2>Donec blandit iaculis iaculis. </h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Phasellus risus urna, viverra vel semper blandit, consectetur non erat. Donec blandit iaculis iaculis. Vestibulum in magna a ex accumsan tincidunt.&nbsp;</p>
+<div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}},"border":{"width":"0px","style":"none"}}} -->
+<div class="wp-block-column" style="border-style:none;border-width:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|sm","right":"var:preset|spacing|sm","bottom":"var:preset|spacing|sm","left":"var:preset|spacing|sm"}},"border":{"width":"1px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="border-width:1px;padding-top:var(--wp--preset--spacing--sm);padding-right:var(--wp--preset--spacing--sm);padding-bottom:var(--wp--preset--spacing--sm);padding-left:var(--wp--preset--spacing--sm)"><!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Starter</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
+<!-- wp:heading {"textAlign":"center"} -->
+<h2 class="has-text-align-center">$9.99</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table {"className":"is-style-stripes"} -->
+<figure class="wp-block-table is-style-stripes"><table><tbody><tr><td class="has-text-align-center" data-align="center">Feature 1</td></tr><tr><td class="has-text-align-center" data-align="center">Feature 2</td></tr><tr><td class="has-text-align-center" data-align="center">Feature 3</td></tr><tr><td class="has-text-align-center" data-align="center">Feature 4</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Call to Action</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Get Started</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"50%"} -->
-<div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|lg","right":"var:preset|spacing|lg","bottom":"var:preset|spacing|lg","left":"var:preset|spacing|lg"}}},"className":"is-style-rounded","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide is-style-rounded" style="padding-top:var(--wp--preset--spacing--lg);padding-right:var(--wp--preset--spacing--lg);padding-bottom:var(--wp--preset--spacing--lg);padding-left:var(--wp--preset--spacing--lg)"><!-- wp:heading -->
-<h2>Donec blandit iaculis iaculis. </h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Phasellus risus urna, viverra vel semper blandit, consectetur non erat. Donec blandit iaculis iaculis. Vestibulum in magna a ex accumsan tincidunt.&nbsp;</p>
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"style":{"border":{"width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|sm","right":"var:preset|spacing|sm","bottom":"var:preset|spacing|sm","left":"var:preset|spacing|sm"}}},"backgroundColor":"secondary","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-secondary-background-color has-background" style="border-width:1px;padding-top:var(--wp--preset--spacing--sm);padding-right:var(--wp--preset--spacing--sm);padding-bottom:var(--wp--preset--spacing--sm);padding-left:var(--wp--preset--spacing--sm)"><!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Pro</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
+<!-- wp:heading {"textAlign":"center"} -->
+<h2 class="has-text-align-center">$49.99</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table {"backgroundColor":"bg","className":"is-style-stripes"} -->
+<figure class="wp-block-table is-style-stripes"><table class="has-bg-background-color has-background"><tbody><tr><td class="has-text-align-center" data-align="center">Feature 1</td></tr><tr><td class="has-text-align-center" data-align="center">Feature 2</td></tr><tr><td class="has-text-align-center" data-align="center">Feature 3</td></tr><tr><td class="has-text-align-center" data-align="center">Feature 4</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Call to Action</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Get Started</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"style":{"border":{"width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|sm","right":"var:preset|spacing|sm","bottom":"var:preset|spacing|sm","left":"var:preset|spacing|sm"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="border-width:1px;padding-top:var(--wp--preset--spacing--sm);padding-right:var(--wp--preset--spacing--sm);padding-bottom:var(--wp--preset--spacing--sm);padding-left:var(--wp--preset--spacing--sm)"><!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Business</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"textAlign":"center"} -->
+<h2 class="has-text-align-center">$19.99</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table {"className":"is-style-stripes"} -->
+<figure class="wp-block-table is-style-stripes"><table><tbody><tr><td class="has-text-align-center" data-align="center">Feature 1</td></tr><tr><td class="has-text-align-center" data-align="center">Feature 2</td></tr><tr><td class="has-text-align-center" data-align="center">Feature 3</td></tr><tr><td class="has-text-align-center" data-align="center">Feature 4</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Get Started</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
