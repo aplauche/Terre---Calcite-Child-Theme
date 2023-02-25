@@ -40,8 +40,8 @@
 <h2 class="has-text-align-center">$49.99</h2>
 <!-- /wp:heading -->
 
-<!-- wp:table {"backgroundColor":"bg","className":"is-style-stripes"} -->
-<figure class="wp-block-table is-style-stripes"><table class="has-bg-background-color has-background"><tbody><tr><td class="has-text-align-center" data-align="center">Feature 1</td></tr><tr><td class="has-text-align-center" data-align="center">Feature 2</td></tr><tr><td class="has-text-align-center" data-align="center">Feature 3</td></tr><tr><td class="has-text-align-center" data-align="center">Feature 4</td></tr></tbody></table></figure>
+<!-- wp:table {"backgroundColor":"base","className":"is-style-stripes"} -->
+<figure class="wp-block-table is-style-stripes"><table class="has-base-background-color has-background"><tbody><tr><td class="has-text-align-center" data-align="center">Feature 1</td></tr><tr><td class="has-text-align-center" data-align="center">Feature 2</td></tr><tr><td class="has-text-align-center" data-align="center">Feature 3</td></tr><tr><td class="has-text-align-center" data-align="center">Feature 4</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->

@@ -23,8 +23,8 @@
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"wide","backgroundColor":"bg-secondary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide has-bg-secondary-background-color has-background"><!-- wp:heading {"level":1,"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|sm","right":"var:preset|spacing|sm","bottom":"var:preset|spacing|sm","left":"var:preset|spacing|sm"}}}} -->
+<!-- wp:group {"align":"wide","backgroundColor":"base-secondary","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide has-base-secondary-background-color has-background"><!-- wp:heading {"level":1,"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|sm","right":"var:preset|spacing|sm","bottom":"var:preset|spacing|sm","left":"var:preset|spacing|sm"}}}} -->
 <h1 class="alignwide" style="padding-top:var(--wp--preset--spacing--sm);padding-right:var(--wp--preset--spacing--sm);padding-bottom:var(--wp--preset--spacing--sm);padding-left:var(--wp--preset--spacing--sm)">Lorem ipsum</h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>

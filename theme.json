@@ -15,18 +15,18 @@
 					"color": "#D8F3A1"
 				},
 				{
-					"name": "Background",
-					"slug": "bg",
+					"name": "Base",
+					"slug": "base",
 					"color": "#f5f5f5"
 				},
 				{
-					"name": "Background Secondary",
-					"slug": "bg-secondary",
+					"name": "Base Secondary",
+					"slug": "base-secondary",
 					"color": "#fff"
 				},
 				{
-					"name": "Main",
-					"slug": "main",
+					"name": "Contrast",
+					"slug": "contrast",
 					"color": "#111"
 				},
 				{

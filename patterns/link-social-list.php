@@ -53,7 +53,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:social-links {"iconColor":"bg-secondary","iconColorValue":"#fff","iconBackgroundColor":"primary","iconBackgroundColorValue":"#333","layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:social-links {"iconColor":"base-secondary","iconColorValue":"#fff","iconBackgroundColor":"primary","iconBackgroundColorValue":"#333","layout":{"type":"flex","justifyContent":"center"}} -->
 <ul class="wp-block-social-links has-icon-color has-icon-background-color"><!-- wp:social-link {"url":"facebook.com","service":"facebook"} /-->
 
 <!-- wp:social-link {"url":"twitter.com","service":"twitter"} /-->
