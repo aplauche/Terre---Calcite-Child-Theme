@@ -10,14 +10,14 @@ function calcite_setup() {
 	// Enqueue editor styles.
 	add_editor_style( get_stylesheet_directory_uri() . '/style.css' );
 }
-add_action( 'after_setup_theme', 'calcite_setup', 99 );
+add_action( 'after_setup_theme', 'calcite_setup', 11 );
 
 
 // Add our child theme stylesheet to enqueue after parent
 function calcite_enqueue_styles(){
-  wp_enqueue_style( 'calcite-styles', get_stylesheet_directory_uri() . '/style.css' );
+  wp_enqueue_style( 'calcite-styles', get_stylesheet_directory_uri() . '/style.css', array('terre'), wp_get_theme( 'calcite' )->get( 'Version' ));
 }
-add_action( 'wp_enqueue_scripts', 'calcite_enqueue_styles', 99 );
+add_action( 'wp_enqueue_scripts', 'calcite_enqueue_styles');
 
 
 // Add our custom block pattern categories
