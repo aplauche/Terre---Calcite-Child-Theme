@@ -12,7 +12,7 @@ Brutalist child theme of the Terre WP ecosystem
 
 == Changelog ==
 
-= 0.0.1 =
+= 0.1.0 =
 * Initial release
 
 == Copyright ==
