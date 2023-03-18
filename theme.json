@@ -49,5 +49,19 @@
 				"base": "0px"
 			}
 		}
+	},
+	"styles": {
+		"elements": {
+			"link": {
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--black)"
+					}
+				},
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
+				}
+			}
+		}
 	}
 }
